@@ -4,6 +4,5 @@ up:
 	docker-compose up -d
 down:
 	docker-compose down
-app:
+shell:
 	docker-compose exec app bash
-
